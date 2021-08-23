@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'
-// import App from './App';
-import Hello from './Hello';
+import Cardlist from './Cardlist'
+// import {robots} from './robots.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-<Hello _react={" is super"}/>,
+<div>
+  <Cardlist/>
+</div>,
   document.getElementById('root')
 );
 
