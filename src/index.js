@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'tachyons'
-import Cardlist from './Cardlist'
+import App from './App';
+
 // import {robots} from './robots.js';
 import reportWebVitals from './reportWebVitals';
+// import Apps from './apps'
 
 ReactDOM.render(
 <div>
-  <Cardlist/>
+  <App/>
 </div>,
   document.getElementById('root')
 );

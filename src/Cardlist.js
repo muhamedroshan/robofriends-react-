@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from './Card';
-import {robots} from './robots.js';
+
  
 
 
-const Cardlist = () =>{
+const Cardlist = ({robots}) =>{
     return(
         <div>
             {
